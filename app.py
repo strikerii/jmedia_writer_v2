@@ -67,7 +67,6 @@ def process_request():
 
             response = chat_session.send_message(prompt)
             return jsonify({
-                'length': len(response.text.split()),
                 'generated_text': response.text
             }), 200
 
