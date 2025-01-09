@@ -89,5 +89,4 @@ def process_request():
 
 # Entry point for the Flask application
 if __name__ == '__main__':
-    # Run the app in debug mode (not recommended for production)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run()
